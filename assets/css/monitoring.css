@@ -35,7 +35,7 @@
 
 .table-responsive {
   display: block;
-  width: 100%;
+  width: auto;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -48,6 +48,10 @@
 .table-responsive table th {
   padding: 10px;
   font-size: 14px;
+}
+
+.card-category{
+  font-size: 13px;
 }
 
 .collapse-row {
@@ -73,7 +77,7 @@
 }
 
 .table-container {
-  width: 100%;
+  max-width: 100%;
 }
 
 #keteranganModal .modal-dialog {
@@ -157,7 +161,7 @@
   max-width: 50%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 740px) {
   #eqModalCol .modal-dialog {
     max-width: 100%;
     margin: 10px;
@@ -176,7 +180,7 @@
   max-width: 50%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 740px) {
   #eqModalBW .modal-dialog {
     max-width: 100%;
     margin: 10px;
@@ -189,7 +193,7 @@
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 740px){
   .side-button {
     width: 40px;
   }
@@ -242,13 +246,6 @@
 .offcanvas-header .profile-username {
   margin-left: 10px;
   color: #fff; 
-}
-
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 5px;
 }
 
 
